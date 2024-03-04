@@ -1,0 +1,47 @@
+.header {
+  width: 1400px;
+  margin: 0 auto;
+  height: 60px;
+  padding-top: 20px;
+  background-color: rgba(0, 0, 255, 0.8);
+  margin-bottom: 5px;
+}
+
+.form {
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10px;
+  width: 500px;
+  padding: 8px 8px 8px 45px;
+  border-radius: 5px;
+  border: none;
+}
+
+.button {
+  position: absolute;
+  top: -5px;
+  left: 455px;
+  border: none;
+  background-color: transparent;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.error {
+  position: absolute;
+  top: -6px;
+  left: 300px;
+
+  text-align: center;
+  font-size: 22px;
+  color: red;
+}
